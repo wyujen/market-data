@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Conda / virtual env
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+.env.*
+
+# Input market data
+input/*
+!input/.gitkeep
+
+# PostgreSQL / database
+pgdata/
+*.sql.dump
+*.dump
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
